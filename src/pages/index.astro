@@ -1,7 +1,20 @@
 ---
 import posts from '../../public/data/posts.json';
----
 
+// Get current tag from URL
+const tagParam = Astro.url?.searchParams.get('tag');
+const tagFilter = tagParam ? tagParam.toLowerCase() : null;
+
+// Get unique tag list
+const allTags = Array.from(new Set(posts.flatMap(post => post.tags)));
+
+// Filter posts
+const filteredPosts = tagFilter
+  ? posts.filter(post =>
+      post.tags.some(t => t.toLowerCase() === tagFilter)
+    )
+  : posts;
+---
 
 <html lang="en">
   <head>
@@ -9,17 +22,61 @@ import posts from '../../public/data/posts.json';
     <title>AI Blog Aggregator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem; }
-      h1 { font-size: 2rem; margin-bottom: 1rem; }
-      .post { margin-bottom: 2rem; }
-      .post h2 { margin: 0; font-size: 1.2rem; }
-      .post p { margin: 0.25rem 0; }
-      .tags { font-size: 0.9rem; color: #555; }
+      body {
+        font-family: sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+      .filters {
+        margin-bottom: 2rem;
+      }
+      .filters a {
+        margin-right: 1rem;
+        text-decoration: none;
+        color: #0070f3;
+        font-weight: ${tagFilter ? 'normal' : 'bold'};
+      }
+      .filters a.active {
+        font-weight: bold;
+        color: black;
+      }
+      .post {
+        margin-bottom: 2rem;
+      }
+      .post h2 {
+        margin: 0;
+        font-size: 1.2rem;
+      }
+      .post p {
+        margin: 0.25rem 0;
+      }
+      .tags {
+        font-size: 0.9rem;
+        color: #555;
+      }
     </style>
   </head>
   <body>
     <h1>🧠 AI Blog Aggregator</h1>
-    {posts.map(post => (
+
+    <div class="filters">
+      <a href="/" class={!tagFilter ? 'active' : ''}>All</a>
+      {allTags.map(tag => (
+        <a
+          href={`/?tag=${encodeURIComponent(tag)}`}
+          class={tag.toLowerCase() === tagFilter ? 'active' : ''}
+        >
+          {tag}
+        </a>
+      ))}
+    </div>
+
+    {filteredPosts.map(post => (
       <div class="post">
         <h2><a href={post.url} target="_blank">{post.title}</a></h2>
         <p><strong>Source:</strong> {post.source} | <strong>Date:</strong> {post.published}</p>

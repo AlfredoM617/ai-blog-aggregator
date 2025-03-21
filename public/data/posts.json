@@ -6,7 +6,7 @@
         "published": "Fri, 21 Mar 2025 16:52:07 +0000",
         "summary": "Discover how to build a GenAI powered virtual IT troubleshooting assistant using Amazon Q Business. This innovative solution integrates with popular ITSM tools like ServiceNow, Atlassian Jira, and Confluence to streamline information retrieval and enhance collaboration across your organization. By harnessing the power of generative AI, this assistant can significantly boost operational efficiency and provide 24/7 support tailored to individual needs. Learn how to set up, configure, and leverage this solution to transform your enterprise information management.",
         "tags": [
-            "AWS_ML_Blog"
+            "AWS"
         ]
     },
     {
@@ -16,7 +16,7 @@
         "published": "Fri, 21 Mar 2025 16:45:47 +0000",
         "summary": "In this post, we explore how you can use these multi-modal generative AI models to streamline the management of technical documents. By extracting and structuring the key information from the source materials, the models can create a searchable knowledge base that allows you to quickly locate the data, formulas, and visualizations you need to support your work.",
         "tags": [
-            "AWS_ML_Blog"
+            "AWS"
         ]
     },
     {
@@ -26,7 +26,7 @@
         "published": "Fri, 21 Mar 2025 16:37:27 +0000",
         "summary": "This post presents a comprehensive AIOps solution that combines various AWS services such as Amazon Bedrock, AWS Lambda, and Amazon CloudWatch to create an AI assistant for effective incident management. This solution also uses Amazon Bedrock Knowledge Bases and Amazon Bedrock Agents. The solution uses the power of Amazon Bedrock to enable the deployment of intelligent agents capable of monitoring IT systems, analyzing logs and metrics, and invoking automated remediation processes.",
         "tags": [
-            "AWS_ML_Blog"
+            "AWS"
         ]
     },
     {
@@ -36,7 +36,7 @@
         "published": "Thu, 20 Mar 2025 17:27:17 +0000",
         "summary": "AWS provides a powerful tool called AWS Support Automation Workflows, which is a collection of curated AWS Systems Manager self-service automation runbooks. These runbooks are created by AWS Support Engineering with best practices learned from solving customer issues. They enable AWS customers to troubleshoot, diagnose, and remediate common issues with their AWS resources. In this post, we explore how to use the power of Amazon Bedrock Agents and AWS Support Automation Workflows to create an intelligent agent capable of troubleshooting issues with AWS resources.",
         "tags": [
-            "AWS_ML_Blog"
+            "AWS"
         ]
     },
     {
@@ -46,7 +46,7 @@
         "published": "Thu, 20 Mar 2025 17:24:37 +0000",
         "summary": "In this post, we demonstrate how to use Amazon Bedrock in SageMaker Unified Studio to build a generative AI application to integrate with an existing endpoint and database.",
         "tags": [
-            "AWS_ML_Blog"
+            "AWS"
         ]
     }
 ]
