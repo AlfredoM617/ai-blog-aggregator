@@ -2,8 +2,8 @@ name: Fetch RSS and Update Posts
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Runs every 6 hours
-  workflow_dispatch:  # Allows manual runs
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:
 
 jobs:
   update-posts:
@@ -26,11 +26,10 @@ jobs:
 
       - name: Commit and Push Changes
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}  # Use the GitHub secret token
+          GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git remote set-url origin https://github.com/AlfredoM617/ai-blog-aggregator.git
           git add public/data/posts.json
           git commit -m "🔄 Auto-update posts.json with latest RSS data" || echo "No changes to commit"
-          git push https://x-access-token:${GH_TOKEN}@github.com/AlfredoM617/ai-blog-aggregator.git main
+          git push https://x-access-token:${GH_TOKEN}@github.com/AlfredoM617/ai-blog-aggregator.git HEAD:main
