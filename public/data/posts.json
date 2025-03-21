@@ -1090,31 +1090,11 @@
         ]
     },
     {
-        "title": "Harnessing AI for resilience, efficiency, and sustainability",
+        "title": "Unlocking the future of manufacturing with AI-powered digital thread",
         "source": "Microsoft AI",
-        "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/18/harnessing-ai-for-resilience-efficiency-and-sustainability/",
-        "published": "Tue, 18 Mar 2025 16:00:00 +0000",
-        "summary": "<p>In a recent playbook, Accelerating sustainability with AI: Innovations for a better future, we outlined our five plays to advance sustainability, providing insight into our work at Microsoft and how business leaders around the world are creating a new path forward.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/18/harnessing-ai-for-resilience-efficiency-and-sustainability/\">Harnessing AI for resilience, efficiency, and sustainability</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
-        "tags": [
-            "Microsoft"
-        ]
-    },
-    {
-        "title": "Beyond words: AI goes multimodal to meet you where you are",
-        "source": "Microsoft AI",
-        "url": "https://news.microsoft.com/source/features/ai/beyond-words-ai-goes-multimodal-to-meet-you-where-you-are/",
-        "published": "Tue, 18 Mar 2025 15:00:26 +0000",
-        "summary": "<p>Beyond words: AI goes multimodal to meet you where you are by Susanna Ray (() =&#62; { let $iframe, $closeBtn; const $player = document.getElementById(&#8216;player-67d98a757b3ed&#8217;) ; const $playerPlayBtn = document.getElementById(&#8216;player-btn-67d98a757b3ed&#8217;) ; const $playerPlayTitleBtn = document.getElementById(&#8216;player-title-btn-67d98a757b3ed&#8217;) ; const $playerText = document.getElementById(&#8216;player-text-67d98a757b3ed&#8217;) ; function onKeyDown(e) { if (document.activeElement !== $closeBtn) { $iframe.focus() ; } } function initIframe(e) {</p>\n<p>The post <a href=\"https://news.microsoft.com/source/features/ai/beyond-words-ai-goes-multimodal-to-meet-you-where-you-are/\">Beyond words: AI goes multimodal to meet you where you are</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
-        "tags": [
-            "Microsoft"
-        ]
-    },
-    {
-        "title": "AI at work: Reasoning models and the future of business",
-        "source": "Microsoft AI",
-        "url": "https://news.microsoft.com/source/2025/03/17/ai-at-work-reasoning-models-and-the-future-of-business/",
-        "published": "Mon, 17 Mar 2025 17:55:51 +0000",
-        "summary": "<p>Tags: AI Work &#38; Life</p>\n<p>The post <a href=\"https://news.microsoft.com/source/2025/03/17/ai-at-work-reasoning-models-and-the-future-of-business/\">AI at work: Reasoning models and the future of business</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
+        "url": "https://www.microsoft.com/en-us/industry/blog/manufacturing-and-mobility/2025/03/13/unlocking-the-future-of-manufacturing-with-ai-powered-digital-thread/",
+        "published": "Thu, 13 Mar 2025 15:00:00 +0000",
+        "summary": "<p>The era of AI and digital threads has arrived, and it’s delivering real value for the world’s leading manufacturers today.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/industry/blog/manufacturing-and-mobility/2025/03/13/unlocking-the-future-of-manufacturing-with-ai-powered-digital-thread/\">Unlocking the future of manufacturing with AI-powered digital thread</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
         "tags": [
             "Microsoft"
         ]
@@ -1125,16 +1105,6 @@
         "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/13/4-real-business-benefits-of-microsoft-ai/",
         "published": "Thu, 13 Mar 2025 15:00:00 +0000",
         "summary": "<p>At Microsoft, we’re working with thousands of  customers across industries and around the world to help them realize the value of AI.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/13/4-real-business-benefits-of-microsoft-ai/\">4 real business benefits of Microsoft AI</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
-        "tags": [
-            "Microsoft"
-        ]
-    },
-    {
-        "title": "Unlocking the future of manufacturing with AI-powered digital thread",
-        "source": "Microsoft AI",
-        "url": "https://www.microsoft.com/en-us/industry/blog/manufacturing-and-mobility/2025/03/13/unlocking-the-future-of-manufacturing-with-ai-powered-digital-thread/",
-        "published": "Thu, 13 Mar 2025 15:00:00 +0000",
-        "summary": "<p>The era of AI and digital threads has arrived, and it’s delivering real value for the world’s leading manufacturers today.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/industry/blog/manufacturing-and-mobility/2025/03/13/unlocking-the-future-of-manufacturing-with-ai-powered-digital-thread/\">Unlocking the future of manufacturing with AI-powered digital thread</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
         "tags": [
             "Microsoft"
         ]
@@ -1180,11 +1150,41 @@
         ]
     },
     {
-        "title": "FYAI: The role of responsible AI with Microsoft CPO Sarah Bird",
+        "title": "What’s new in Azure Elastic SAN",
         "source": "Microsoft AI",
-        "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/05/fyai-the-role-of-responsible-ai-with-microsoft-cpo-sarah-bird/",
-        "published": "Wed, 05 Mar 2025 17:00:00 +0000",
-        "summary": "<p>Let’s explore Sarah Bird's experiences and perspectives on the evolving landscape of AI and discover how Microsoft is building trustworthy AI systems. </p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/05/fyai-the-role-of-responsible-ai-with-microsoft-cpo-sarah-bird/\">FYAI: The role of responsible AI with Microsoft CPO Sarah Bird</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
+        "url": "https://azure.microsoft.com/en-us/blog/whats-new-in-azure-elastic-san/",
+        "published": "Wed, 05 Mar 2025 16:00:00 +0000",
+        "summary": "<p>I’m excited to share our recent updates to Azure Elastic SAN—our solution for high-scale cost efficiency in the cloud. </p>\n<p>The post <a href=\"https://azure.microsoft.com/en-us/blog/whats-new-in-azure-elastic-san/\">What’s new in Azure Elastic SAN</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
+        "tags": [
+            "Microsoft"
+        ]
+    },
+    {
+        "title": "New sales agents accessible in Microsoft 365 Copilot help teams close more deals, faster",
+        "source": "Microsoft AI",
+        "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/03/05/new-sales-agents-accessible-in-microsoft-365-copilot-help-teams-close-more-deals-faster/",
+        "published": "Wed, 05 Mar 2025 13:00:00 +0000",
+        "summary": "<p>Our ambition is to empower every employee with a Copilot and transform every business process with agents. We’re announcing two new agents that apply this ambition to sales—the revenue engine for every business—and can be used right in the flow of work.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2025/03/05/new-sales-agents-accessible-in-microsoft-365-copilot-help-teams-close-more-deals-faster/\">New sales agents accessible in Microsoft 365 Copilot help teams close more deals, faster</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
+        "tags": [
+            "Microsoft"
+        ]
+    },
+    {
+        "title": "Accelerate your journey to AI-first selling with Microsoft AI Accelerator for Sales and new sales agents",
+        "source": "Microsoft AI",
+        "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2025/03/05/accelerate-your-journey-to-ai-first-selling-with-microsoft-ai-accelerator-for-sales-and-new-sales-agents/",
+        "published": "Wed, 05 Mar 2025 13:00:00 +0000",
+        "summary": "<p>We’re announcing a new program—Microsoft AI Accelerator for Sales—to help more customers rapidly transform their sales organization with Microsoft 365 Copilot and agents, as well as two new agents—Sales Agent and Sales Chat—to help scale the team’s ability to nurture and close deals.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2025/03/05/accelerate-your-journey-to-ai-first-selling-with-microsoft-ai-accelerator-for-sales-and-new-sales-agents/\">Accelerate your journey to AI-first selling with Microsoft AI Accelerator for Sales and new sales agents</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
+        "tags": [
+            "Microsoft"
+        ]
+    },
+    {
+        "title": "Microsoft AI powers a new energy future",
+        "source": "Microsoft AI",
+        "url": "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/2025/03/04/microsoft-ai-powers-a-new-energy-future/",
+        "published": "Tue, 04 Mar 2025 18:00:00 +0000",
+        "summary": "<p>We look forward to participating in CERAWeek 2025 from March 10 to 14, 2025.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/industry/blog/energy-and-resources/2025/03/04/microsoft-ai-powers-a-new-energy-future/\">Microsoft AI powers a new energy future</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
         "tags": [
             "Microsoft"
         ]
