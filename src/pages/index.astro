@@ -1,18 +1,19 @@
 ---
 export const prerender = false;
 
-import posts from '../../public/data/posts.json';
+import postData from '../../public/data/posts.json';
 
-// Use Astro.request.url instead of Astro.url for SSR compatibility
-const url = new URL(Astro.request.url);
-const tagParam = url.searchParams.get('tag');
+const posts = postData.posts;
+const lastUpdated = new Date(postData.last_updated).toLocaleString();
+
+const tagParam = new URL(Astro.request.url).searchParams.get('tag');
 const activeTag = tagParam ? tagParam.toLowerCase() : null;
 
 const allTags = Array.from(new Set(posts.flatMap(post => post.tags)));
 
 const filteredPosts = activeTag
   ? posts.filter(post =>
-      post.tags.some(tag => tag.toLowerCase() === activeTag)
+      post.tags.some(t => t.toLowerCase() === activeTag)
     )
   : posts;
 ---
@@ -20,7 +21,7 @@ const filteredPosts = activeTag
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>AI Blog Aggregator</title>
+    <title>🧠 AI Blog Aggregator v0.1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
       body {
@@ -56,10 +57,16 @@ const filteredPosts = activeTag
         font-size: 0.9rem;
         color: #555;
       }
+      .last-updated {
+        color: #999;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+      }
     </style>
   </head>
   <body>
-    <h1>🧠 AI Blog Aggregator v0.1</h1>
+    <h1>🧠 AI Blog Aggregator <span style="font-size: 0.8rem; color: #888;">v0.1</span></h1>
+    <p class="last-updated">Last updated: {lastUpdated}</p>
 
     <div class="filters">
       <a href="/" class={!activeTag ? 'active' : ''}>All</a>
@@ -81,8 +88,5 @@ const filteredPosts = activeTag
         <p class="tags">Tags: {post.tags.join(', ')}</p>
       </div>
     ))}
-        <footer style="margin-top: 4rem; font-size: 0.9rem; color: #999;">
-          Version: v0.1 — Deployed on {new Date().toLocaleDateString()}
-        </footer>    
   </body>
 </html>

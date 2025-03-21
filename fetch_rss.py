@@ -34,7 +34,7 @@ def fetch_rss():
         entries = feed.entries
         print(f"📡 {source}: {len(entries)} entries fetched")
 
-        for entry in entries[:15]:  # Limit to latest 5
+        for entry in entries[:5]:
             tag = TAG_MAP.get(source, source.replace(" ", "_"))
             posts.append({
                 "title": entry.title,
@@ -45,8 +45,13 @@ def fetch_rss():
                 "tags": [tag],
             })
 
+    output = {
+        "last_updated": datetime.now().isoformat(),
+        "posts": sorted(posts, key=lambda p: p["published"], reverse=True)
+    }
+
     with open("public/data/posts.json", "w", encoding="utf-8") as f:
-        json.dump(posts, f, indent=4, ensure_ascii=False)
+        json.dump(output, f, indent=4, ensure_ascii=False)
 
     print("✅ RSS feed fetched and posts.json updated!")
 
