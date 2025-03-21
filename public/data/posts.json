@@ -48,5 +48,155 @@
         "tags": [
             "AWS"
         ]
+    },
+    {
+        "title": "Pluralis: Towards Open AI",
+        "source": "Hacker News AI",
+        "url": "https://blog.usv.com/pluralis-towards-actually-open-ai-1",
+        "published": "Fri, 21 Mar 2025 19:46:13 +0000",
+        "summary": "<p>Article URL: <a href=\"https://blog.usv.com/pluralis-towards-actually-open-ai-1\">https://blog.usv.com/pluralis-towards-actually-open-ai-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43440106\">https://news.ycombinator.com/item?id=43440106</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+        "tags": [
+            "HackerNews"
+        ]
+    },
+    {
+        "title": "Apple AI's Platform Pivot Potential",
+        "source": "Hacker News AI",
+        "url": "https://stratechery.com/2025/apple-ais-platform-pivot-potential/",
+        "published": "Fri, 21 Mar 2025 18:56:49 +0000",
+        "summary": "<p>Article URL: <a href=\"https://stratechery.com/2025/apple-ais-platform-pivot-potential/\">https://stratechery.com/2025/apple-ais-platform-pivot-potential/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43439627\">https://news.ycombinator.com/item?id=43439627</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+        "tags": [
+            "HackerNews"
+        ]
+    },
+    {
+        "title": "Ark: Survival Evolved fans blast AI-slop trailer for Aquatica DLC",
+        "source": "Hacker News AI",
+        "url": "https://www.polygon.com/news/543122/ark-survival-evolved-aquatica-dlc-ai",
+        "published": "Fri, 21 Mar 2025 18:53:54 +0000",
+        "summary": "<p>Article URL: <a href=\"https://www.polygon.com/news/543122/ark-survival-evolved-aquatica-dlc-ai\">https://www.polygon.com/news/543122/ark-survival-evolved-aquatica-dlc-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43439590\">https://news.ycombinator.com/item?id=43439590</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+        "tags": [
+            "HackerNews"
+        ]
+    },
+    {
+        "title": "Show HN: DropCSV – Transform your CSV files into AI-powered insights – just drop",
+        "source": "Hacker News AI",
+        "url": "https://dropcsv.com/",
+        "published": "Fri, 21 Mar 2025 18:30:20 +0000",
+        "summary": "<p>Article URL: <a href=\"https://dropcsv.com/\">https://dropcsv.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43439373\">https://news.ycombinator.com/item?id=43439373</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+        "tags": [
+            "HackerNews"
+        ]
+    },
+    {
+        "title": "Ask HN: Why Are We Fighting AI Scrapers If the Internet Is Meant to Be Public?",
+        "source": "Hacker News AI",
+        "url": "https://news.ycombinator.com/item?id=43439242",
+        "published": "Fri, 21 Mar 2025 18:19:23 +0000",
+        "summary": "<p>Cloudflare launched “AI Labyrinth” — traps for AI scrapers: fake AI-generated pages that confuse bots and burn their resources.<p>But… what’s the point? Can someone explain this to me? Why are we trying to make it harder for AIs to access public info humans can find anyway? We’ll get there either way.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43439242\">https://news.ycombinator.com/item?id=43439242</a></p>\n<p>Points: 1</p>\n<p># Comments: 8</p>",
+        "tags": [
+            "HackerNews"
+        ]
+    },
+    {
+        "title": "No More Tableau Downtime: Metadata API for Proactive Data Health",
+        "source": "Towards Data Science",
+        "url": "https://towardsdatascience.com/no-more-tableau-downtime-metadata-api-for-proactive-data-health/",
+        "published": "Fri, 21 Mar 2025 20:01:41 +0000",
+        "summary": "<p>Leverage the power of the Metadata API to act on any potential data disruptions</p>\n<p>The post <a href=\"https://towardsdatascience.com/no-more-tableau-downtime-metadata-api-for-proactive-data-health/\">No More Tableau Downtime: Metadata API for Proactive Data Health</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+        "tags": [
+            "TDS"
+        ]
+    },
+    {
+        "title": "What Germany Currently Is Up To, Debt-Wise",
+        "source": "Towards Data Science",
+        "url": "https://towardsdatascience.com/what-germany-currently-is-up-to-debt-wise/",
+        "published": "Fri, 21 Mar 2025 19:30:58 +0000",
+        "summary": "<p>Billions, visualized to scale using python and HTML</p>\n<p>The post <a href=\"https://towardsdatascience.com/what-germany-currently-is-up-to-debt-wise/\">What Germany Currently Is Up To, Debt-Wise</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+        "tags": [
+            "TDS"
+        ]
+    },
+    {
+        "title": "Google’s Data Science Agent: Can It Really Do Your Job?",
+        "source": "Towards Data Science",
+        "url": "https://towardsdatascience.com/googles-data-science-agent-can-it-really-do-your-job/",
+        "published": "Fri, 21 Mar 2025 18:31:14 +0000",
+        "summary": "<p>I tested Google’s Data Science Agent in Colab—here’s what it got right (and where it failed)</p>\n<p>The post <a href=\"https://towardsdatascience.com/googles-data-science-agent-can-it-really-do-your-job/\">Google’s Data Science Agent: Can It Really Do Your Job?</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+        "tags": [
+            "TDS"
+        ]
+    },
+    {
+        "title": "R.E.D.: Scaling Text Classification with Expert Delegation",
+        "source": "Towards Data Science",
+        "url": "https://towardsdatascience.com/r-e-d-scaling-text-classification-with-expert-delegation/",
+        "published": "Fri, 21 Mar 2025 05:11:10 +0000",
+        "summary": "<p>A novel large-scale semi-supervised framework that augments traditional classification with LLMs</p>\n<p>The post <a href=\"https://towardsdatascience.com/r-e-d-scaling-text-classification-with-expert-delegation/\">R.E.D.: Scaling Text Classification with Expert Delegation</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+        "tags": [
+            "TDS"
+        ]
+    },
+    {
+        "title": "Algorithm Protection in the Context of Federated Learning",
+        "source": "Towards Data Science",
+        "url": "https://towardsdatascience.com/algorithm-protection-in-the-context-of-federated-learning/",
+        "published": "Fri, 21 Mar 2025 04:32:38 +0000",
+        "summary": "<p>A pragmatic look into protecting algorithms and models deployed into real-world federated analysis and learning settings in healthcare.</p>\n<p>The post <a href=\"https://towardsdatascience.com/algorithm-protection-in-the-context-of-federated-learning/\">Algorithm Protection in the Context of Federated Learning </a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+        "tags": [
+            "TDS"
+        ]
+    },
+    {
+        "title": "OpenAI has released its first research into how using ChatGPT affects people’s emotional wellbeing",
+        "source": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2025/03/21/1113635/openai-has-released-its-first-research-into-how-using-chatgpt-affects-peoples-emotional-wellbeing/",
+        "published": "Fri, 21 Mar 2025 17:44:25 +0000",
+        "summary": "OpenAI says over 400 million people use ChatGPT every week. But how does interacting with it affect us? Does it make us more or less lonely? These are some of the questions OpenAI set out to investigate, in partnership with the MIT Media Lab, in a pair of new studies.  They found that only a&#8230;",
+        "tags": [
+            "MIT"
+        ]
+    },
+    {
+        "title": "The Download: saving the “doomsday glacier,” and Europe’s hopes for its rockets",
+        "source": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2025/03/21/1113624/the-download-saving-the-doomsday-glacier-and-europes-hopes-for-its-rockets/",
+        "published": "Fri, 21 Mar 2025 12:10:00 +0000",
+        "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside a new quest to save the “doomsday glacier” The Thwaites glacier is a fortress larger than Florida, a wall of ice that reaches nearly 4,000 feet above the bedrock of West Antarctica,&#8230;",
+        "tags": [
+            "MIT"
+        ]
+    },
+    {
+        "title": "Inside a new quest to save the “doomsday glacier”",
+        "source": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2025/03/21/1113396/inside-a-new-quest-to-save-the-doomsday-glacier/",
+        "published": "Fri, 21 Mar 2025 09:00:00 +0000",
+        "summary": "The Thwaites glacier is a fortress larger than Florida, a wall of ice that reaches nearly 4,000 feet above the bedrock of West Antarctica, guarding the low-lying ice sheet behind it. But a strong, warm ocean current is weakening its foundations and accelerating its slide into the Amundsen Sea. Scientists fear the waters could topple&#8230;",
+        "tags": [
+            "MIT"
+        ]
+    },
+    {
+        "title": "Autopsies can reveal intimate health details. Should they be kept private?",
+        "source": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2025/03/21/1113549/autopsies-reveal-intimate-health-details-kept-private/",
+        "published": "Fri, 21 Mar 2025 09:00:00 +0000",
+        "summary": "Over the past couple of weeks, I’ve been following news of the deaths of actor Gene Hackman and his wife, pianist Betsy Arakawa. It was heartbreaking to hear how Arakawa appeared to have died from a rare infection days before her husband, who had advanced Alzheimer’s disease and may have struggled to understand what had&#8230;",
+        "tags": [
+            "MIT"
+        ]
+    },
+    {
+        "title": "Europe is finally getting serious about commercial rockets",
+        "source": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2025/03/20/1113582/europe-is-finally-getting-serious-about-commercial-rockets/",
+        "published": "Thu, 20 Mar 2025 18:19:14 +0000",
+        "summary": "Europe is on the cusp of a new dawn in commercial space technology. As global political tensions intensify and relationships with the US become increasingly strained, several European companies are now planning to conduct their own launches in an attempt to reduce the continent’s reliance on American rockets. In the coming days, Isar Aerospace, a&#8230;",
+        "tags": [
+            "MIT"
+        ]
     }
 ]
