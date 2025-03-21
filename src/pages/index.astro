@@ -3,7 +3,11 @@ export const prerender = false;
 
 import posts from '../../public/data/posts.json';
 
+console.log('Astro.url is:', Astro.url?.toString());
+
 const tagParam = Astro.url?.searchParams.get('tag');
+console.log('tagParam is:', tagParam);
+
 const activeTag = tagParam ? tagParam.toLowerCase() : null;
 
 const allTags = Array.from(new Set(posts.flatMap(post => post.tags)));
