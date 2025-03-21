@@ -3,18 +3,16 @@ export const prerender = false;
 
 import posts from '../../public/data/posts.json';
 
-console.log('Astro.url is:', Astro.url?.toString());
-
-const tagParam = Astro.url?.searchParams.get('tag');
-console.log('tagParam is:', tagParam);
-
+// Use Astro.request.url instead of Astro.url for SSR compatibility
+const url = new URL(Astro.request.url);
+const tagParam = url.searchParams.get('tag');
 const activeTag = tagParam ? tagParam.toLowerCase() : null;
 
 const allTags = Array.from(new Set(posts.flatMap(post => post.tags)));
 
 const filteredPosts = activeTag
   ? posts.filter(post =>
-      post.tags.some(t => t.toLowerCase() === activeTag)
+      post.tags.some(tag => tag.toLowerCase() === activeTag)
     )
   : posts;
 ---
