@@ -1,13 +1,12 @@
 ---
 import posts from '../../public/data/posts.json';
+export const prerender = false;
 
 const tagParam = Astro.url?.searchParams.get('tag');
 const activeTag = tagParam ? tagParam.toLowerCase() : null;
 
-// Get unique tag list
 const allTags = Array.from(new Set(posts.flatMap(post => post.tags)));
 
-// Filtered posts
 const filteredPosts = activeTag
   ? posts.filter(post =>
       post.tags.some(t => t.toLowerCase() === activeTag)
