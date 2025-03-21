@@ -1,17 +1,16 @@
 ---
 import posts from '../../public/data/posts.json';
 
-// Get current tag from URL
 const tagParam = Astro.url?.searchParams.get('tag');
-const tagFilter = tagParam ? tagParam.toLowerCase() : null;
+const activeTag = tagParam ? tagParam.toLowerCase() : null;
 
 // Get unique tag list
 const allTags = Array.from(new Set(posts.flatMap(post => post.tags)));
 
-// Filter posts
-const filteredPosts = tagFilter
+// Filtered posts
+const filteredPosts = activeTag
   ? posts.filter(post =>
-      post.tags.some(t => t.toLowerCase() === tagFilter)
+      post.tags.some(t => t.toLowerCase() === activeTag)
     )
   : posts;
 ---
@@ -28,22 +27,18 @@ const filteredPosts = tagFilter
         margin: 0 auto;
         padding: 2rem;
       }
-      h1 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-      }
       .filters {
         margin-bottom: 2rem;
       }
       .filters a {
-        margin-right: 1rem;
+        margin-right: 0.75rem;
         text-decoration: none;
-        color: #0070f3;
-        font-weight: ${tagFilter ? 'normal' : 'bold'};
+        font-weight: bold;
+        color: #555;
       }
       .filters a.active {
-        font-weight: bold;
         color: black;
+        text-decoration: underline;
       }
       .post {
         margin-bottom: 2rem;
@@ -65,11 +60,11 @@ const filteredPosts = tagFilter
     <h1>🧠 AI Blog Aggregator</h1>
 
     <div class="filters">
-      <a href="/" class={!tagFilter ? 'active' : ''}>All</a>
+      <a href="/" class={!activeTag ? 'active' : ''}>All</a>
       {allTags.map(tag => (
         <a
           href={`/?tag=${encodeURIComponent(tag)}`}
-          class={tag.toLowerCase() === tagFilter ? 'active' : ''}
+          class={tag.toLowerCase() === activeTag ? 'active' : ''}
         >
           {tag}
         </a>
