@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Claude 3 Released",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-3",
+      "published": "2025-03-19",
+      "summary": "Claude 3 launches with tool use, memory, and faster reasoning.",
+      "tags": ["release", "LLM"]
+    },
+    {
+      "title": "OpenAI GPT-4 Turbo Update",
+      "source": "OpenAI",
+      "url": "https://openai.com/release-notes",
+      "published": "2025-03-18",
+      "summary": "GPT-4 Turbo now supports 128k context in production.",
+      "tags": ["OpenAI", "Turbo"]
+    }
+  ]
+  

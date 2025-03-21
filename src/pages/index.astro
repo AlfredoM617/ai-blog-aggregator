@@ -1,0 +1,31 @@
+---
+import posts from '../../public/data/posts.json';
+---
+
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI Blog Aggregator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem; }
+      h1 { font-size: 2rem; margin-bottom: 1rem; }
+      .post { margin-bottom: 2rem; }
+      .post h2 { margin: 0; font-size: 1.2rem; }
+      .post p { margin: 0.25rem 0; }
+      .tags { font-size: 0.9rem; color: #555; }
+    </style>
+  </head>
+  <body>
+    <h1>🧠 AI Blog Aggregator</h1>
+    {posts.map(post => (
+      <div class="post">
+        <h2><a href={post.url} target="_blank">{post.title}</a></h2>
+        <p><strong>Source:</strong> {post.source} | <strong>Date:</strong> {post.published}</p>
+        <p>{post.summary}</p>
+        <p class="tags">Tags: {post.tags.join(', ')}</p>
+      </div>
+    ))}
+  </body>
+</html>
