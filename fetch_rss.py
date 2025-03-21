@@ -6,14 +6,24 @@ RSS_FEEDS = {
     "AWS ML Blog": "https://aws.amazon.com/blogs/machine-learning/feed/",
     "Hacker News AI": "https://hnrss.org/newest?q=ai",
     "Towards Data Science": "https://towardsdatascience.com/feed",
-    "MIT Tech Review AI": "https://www.technologyreview.com/feed/"
+    "MIT Tech Review AI": "https://www.technologyreview.com/feed/",
+    "DeepMind": "https://deepmind.google/blog/rss.xml",
+    "Hugging Face": "https://huggingface.co/blog/feed.xml",
+    "LangChain": "https://blog.langchain.dev/rss/",
+    "LlamaIndex": "https://www.llamaindex.ai/blog/feed",
+    "Microsoft AI": "https://www.microsoft.com/en-us/ai/blog/feed/"
 }
 
 TAG_MAP = {
     "AWS ML Blog": "AWS",
     "Hacker News AI": "HackerNews",
     "Towards Data Science": "TDS",
-    "MIT Tech Review AI": "MIT"
+    "MIT Tech Review AI": "MIT",
+    "DeepMind": "DeepMind",
+    "Hugging Face": "HuggingFace",
+    "LangChain": "LangChain",
+    "LlamaIndex": "LlamaIndex",
+    "Microsoft AI": "Microsoft"
 }
 
 def fetch_rss():
@@ -24,7 +34,7 @@ def fetch_rss():
         entries = feed.entries
         print(f"📡 {source}: {len(entries)} entries fetched")
 
-        for entry in entries[:5]:  # Limit to latest 5
+        for entry in entries[:15]:  # Limit to latest 5
             tag = TAG_MAP.get(source, source.replace(" ", "_"))
             posts.append({
                 "title": entry.title,
