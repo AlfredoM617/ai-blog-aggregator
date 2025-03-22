@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-03-22T03:02:48.868473",
+    "last_updated": "2025-03-22T06:41:28.867084",
     "posts": [
         {
             "title": "How Inconvo is improving customer-facing analytics with conversational AI built on LangGraph",
@@ -19,6 +19,16 @@
             "summary": "No summary available.",
             "tags": [
                 "HuggingFace"
+            ]
+        },
+        {
+            "title": "7 retail trends to watch this year from NRF 2025: Retail’s Big Show",
+            "source": "Microsoft AI",
+            "url": "https://www.microsoft.com/en-us/industry/blog/retail/2025/03/12/7-retail-trends-to-watch-this-year-from-nrf-2025-retails-big-show/",
+            "published": "Wed, 12 Mar 2025 19:00:00 +0000",
+            "summary": "<p>From AI innovations to Gen Zalpha as consumer, this year’s NRF Big Show brought fresh perspectives on how technology and human interaction are redefining the industry.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/industry/blog/retail/2025/03/12/7-retail-trends-to-watch-this-year-from-nrf-2025-retails-big-show/\">7 retail trends to watch this year from NRF 2025: Retail’s Big Show</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
+            "tags": [
+                "Microsoft"
             ]
         },
         {
@@ -82,26 +92,6 @@
             ]
         },
         {
-            "title": "Harnessing AI for resilience, efficiency, and sustainability",
-            "source": "Microsoft AI",
-            "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/18/harnessing-ai-for-resilience-efficiency-and-sustainability/",
-            "published": "Tue, 18 Mar 2025 16:00:00 +0000",
-            "summary": "<p>In a recent playbook, Accelerating sustainability with AI: Innovations for a better future, we outlined our five plays to advance sustainability, providing insight into our work at Microsoft and how business leaders around the world are creating a new path forward.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/18/harnessing-ai-for-resilience-efficiency-and-sustainability/\">Harnessing AI for resilience, efficiency, and sustainability</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
-            "tags": [
-                "Microsoft"
-            ]
-        },
-        {
-            "title": "Beyond words: AI goes multimodal to meet you where you are",
-            "source": "Microsoft AI",
-            "url": "https://news.microsoft.com/source/features/ai/beyond-words-ai-goes-multimodal-to-meet-you-where-you-are/",
-            "published": "Tue, 18 Mar 2025 15:00:26 +0000",
-            "summary": "<p>Beyond words: AI goes multimodal to meet you where you are by Susanna Ray (() =&#62; { let $iframe, $closeBtn; const $player = document.getElementById(&#8216;player-67d98a757b3ed&#8217;) ; const $playerPlayBtn = document.getElementById(&#8216;player-btn-67d98a757b3ed&#8217;) ; const $playerPlayTitleBtn = document.getElementById(&#8216;player-title-btn-67d98a757b3ed&#8217;) ; const $playerText = document.getElementById(&#8216;player-text-67d98a757b3ed&#8217;) ; function onKeyDown(e) { if (document.activeElement !== $closeBtn) { $iframe.focus() ; } } function initIframe(e) {</p>\n<p>The post <a href=\"https://news.microsoft.com/source/features/ai/beyond-words-ai-goes-multimodal-to-meet-you-where-you-are/\">Beyond words: AI goes multimodal to meet you where you are</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
-            "tags": [
-                "Microsoft"
-            ]
-        },
-        {
             "title": "NVIDIA's GTC 2025 Announcement for Physical AI Developers: New Open Models and Datasets",
             "source": "Hugging Face",
             "url": "https://huggingface.co/blog/nvidia-physical-ai",
@@ -129,6 +119,26 @@
             "summary": "<p><strong>Hi there, Llama Lovers! 🦙</strong></p><p>Welcome to this week&#x27;s edition of the LlamaIndex newsletter! We&#x27;re thrilled to share some exciting updates, including the launch of LlamaExtract in public beta, a step-by-step tutorial on building agentic reasoning systems, and a collection of templates for automating knowledge work. Dive into these highlights and more to enhance your experience with our tools!</p><p><strong>🤩 The Highlights:</strong></p><ul><li><strong>Step-by-Step Tutorial on Corrective RAG:</strong> Check out this fantastic tutorial by @akshay_pachaar on building an agentic reasoning system for search and retrieval (specifically, corrective RAG) from scratch using @llama_index workflows. <a href=\"https://t.co/XvggKSY4T9\" rel=\"noreferrer noopener\">Learn more</a>.</li><li><strong>Task-Specific Agent Templates:</strong> We’re curating a collection of templates that show you how to build task-specific agents to automate knowledge work. With just a few lines of code, you can orchestrate workflows for various tasks, including processing slide decks and extracting invoice line items. <a href=\"https://t.co/y29XYWXyHb\" rel=\"noreferrer noopener\">Explore the templates</a> and <a href=\"https://t.co/yQGTiRSfFL\" rel=\"noreferrer noopener\">sign up for LlamaCloud</a>.</li><li><strong>Model Context Protocol Integration:</strong> Connect your LlamaIndex agents to any Model Context Protocol server! This integration allows you to use tools exposed by any MCP-compatible server in your LlamaIndex agent with just one line of code. <a href=\"https://t.co/3hViiJkmEW\" rel=\"noreferrer noopener\">Install the integration</a> and <a href=\"https://t.co/KyIGhLVZkg\" rel=\"noreferrer noopener\">see a full demo</a>.</li></ul><p><strong>🗺️ LlamaCloud &amp; LlamaParse:</strong></p><ul><li><strong>LlamaExtract Public Beta:</strong> LlamaExtract is now in public beta! This tool allows you to extract structured data from long, complex documents effortlessly. <a href=\"https://t.co/W4L6g6B2VA\" rel=\"noreferrer noopener\">Read the full post</a> and <a href=\"https://t.co/zqUqveKp6b\" rel=\"noreferrer noopener\">sign up for LlamaExtract</a>.</li></ul><p><strong>✨ Framework:</strong></p><ul><li><strong>Enhanced Workflows for LlamaIndex:</strong> We’re excited to announce updates that allow you to orchestrate complex, customizable event-driven agent workflows using @llama_index. This enhancement is crucial for building robust AI solutions. <a href=\"https://t.co/XvggKSY4T9\" rel=\"noreferrer noopener\">Check out the introduction to workflows</a>.</li></ul><p><strong>✍️ Community:</strong></p><ul><li><strong>AI and Web Development Insights:</strong> Join industry experts at @WeAreDevs WebDev &amp; AI Day on March 27 to learn about AI&#x27;s role in platform engineering and developer tools. <a href=\"https://t.co/jwNWlRUTZV\" rel=\"noreferrer noopener\">Learn more about the event</a> and get a 15% discount on us! <a href=\"https://t.co/N5Ogvl5E5Z\" rel=\"noreferrer noopener\">Claim your discount</a>.</li><li><strong>5th LLM x Law Hackathon:</strong> Participate in the upcoming hackathon at @stanford on April 6, where innovators will develop AI solutions for legal work. <a href=\"https://t.co/qEzhWgtRoZ\" rel=\"noreferrer noopener\">Sign up to participate</a>.</li><li><strong>Updated AnthropicAI Cookbook:</strong> We’ve expanded our @AnthropicAI cookbook with new features, including basic API setup, streaming support, and multi-modal capabilities. <a href=\"https://t.co/rkRr4WaIOx\" rel=\"noreferrer noopener\">Check it out here</a>.</li><li><strong>Real-Time Knowledge Graph Exploration:</strong> Explore a knowledge graph in real-time using LLMs with the impressive demo from @yworks showcasing their SDK for visualizing knowledge graphs. <a href=\"https://t.co/5ARhE7jXVf\" rel=\"noreferrer noopener\">Read their blog</a> or head to the <a href=\"https://t.co/J4Z32uBZ3B\" rel=\"noreferrer noopener\">repo</a>.</li></ul><p>Thank you for being part of our community! Stay tuned for more updates, and don’t hesitate to reach out with any questions or feedback.</p>",
             "tags": [
                 "LlamaIndex"
+            ]
+        },
+        {
+            "title": "Announcing the Responses API and Computer-Using Agent in Azure AI Foundry",
+            "source": "Microsoft AI",
+            "url": "https://azure.microsoft.com/en-us/blog/announcing-the-responses-api-and-computer-using-agent-in-azure-ai-foundry/",
+            "published": "Tue, 11 Mar 2025 20:30:00 +0000",
+            "summary": "<p>AI agents are transforming industries by automating workflows, enhancing productivity, and enabling intelligent decision-making. Businesses are leveraging AI agents to process insurance claims, manage IT service desks, optimize supply chain logistics, and even assist healthcare professionals in analyzing medical records. The potential is vast, and we’re excited to introduce two powerful innovations in Azure AI Foundry.</p>\n<p>The post <a href=\"https://azure.microsoft.com/en-us/blog/announcing-the-responses-api-and-computer-using-agent-in-azure-ai-foundry/\">Announcing the Responses API and Computer-Using Agent in Azure AI Foundry</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
+            "tags": [
+                "Microsoft"
+            ]
+        },
+        {
+            "title": "4 keys to the future of public finance with Microsoft 365 Copilot for Finance",
+            "source": "Microsoft AI",
+            "url": "https://www.microsoft.com/en-us/industry/blog/government/2025/03/11/4-keys-to-the-future-of-public-finance-with-microsoft-365-copilot-for-finance/",
+            "published": "Tue, 11 Mar 2025 16:00:00 +0000",
+            "summary": "<p>Microsoft 365 Copilot for Finance (preview) is an AI-powered, role-based Copilot agent designed to help government agencies speed time to impact.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/industry/blog/government/2025/03/11/4-keys-to-the-future-of-public-finance-with-microsoft-365-copilot-for-finance/\">4 keys to the future of public finance with Microsoft 365 Copilot for Finance</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
+            "tags": [
+                "Microsoft"
             ]
         },
         {
@@ -202,16 +212,6 @@
             ]
         },
         {
-            "title": "4 real business benefits of Microsoft AI",
-            "source": "Microsoft AI",
-            "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/13/4-real-business-benefits-of-microsoft-ai/",
-            "published": "Thu, 13 Mar 2025 15:00:00 +0000",
-            "summary": "<p>At Microsoft, we’re working with thousands of  customers across industries and around the world to help them realize the value of AI.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/13/4-real-business-benefits-of-microsoft-ai/\">4 real business benefits of Microsoft AI</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
-            "tags": [
-                "Microsoft"
-            ]
-        },
-        {
             "title": "Unlocking the future of manufacturing with AI-powered digital thread",
             "source": "Microsoft AI",
             "url": "https://www.microsoft.com/en-us/industry/blog/manufacturing-and-mobility/2025/03/13/unlocking-the-future-of-manufacturing-with-ai-powered-digital-thread/",
@@ -222,31 +222,61 @@
             ]
         },
         {
-            "title": "I helped build a government AI system. DOGE fired me ...",
+            "title": "4 real business benefits of Microsoft AI",
+            "source": "Microsoft AI",
+            "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/13/4-real-business-benefits-of-microsoft-ai/",
+            "published": "Thu, 13 Mar 2025 15:00:00 +0000",
+            "summary": "<p>At Microsoft, we’re working with thousands of  customers across industries and around the world to help them realize the value of AI.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/03/13/4-real-business-benefits-of-microsoft-ai/\">4 real business benefits of Microsoft AI</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
+            "tags": [
+                "Microsoft"
+            ]
+        },
+        {
+            "title": "The future of AI is Ruby on Rails",
             "source": "Hacker News AI",
-            "url": "https://bsky.app/profile/skiles.bsky.social/post/3lkwbunaatk25",
-            "published": "Sat, 22 Mar 2025 02:40:37 +0000",
-            "summary": "<p>Article URL: <a href=\"https://bsky.app/profile/skiles.bsky.social/post/3lkwbunaatk25\">https://bsky.app/profile/skiles.bsky.social/post/3lkwbunaatk25</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43442809\">https://news.ycombinator.com/item?id=43442809</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+            "url": "https://www.seangoedecke.com/ai-and-ruby/#fnref-1",
+            "published": "Sat, 22 Mar 2025 06:33:27 +0000",
+            "summary": "<p>Article URL: <a href=\"https://www.seangoedecke.com/ai-and-ruby/#fnref-1\">https://www.seangoedecke.com/ai-and-ruby/#fnref-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43443974\">https://news.ycombinator.com/item?id=43443974</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
             "tags": [
                 "HackerNews"
             ]
         },
         {
-            "title": "Blueprints: Customizable AI Workflows for Developers",
+            "title": "On-Premise AI Servers: A high growth and underserved market",
             "source": "Hacker News AI",
-            "url": "https://blog.mozilla.ai/introducing-blueprints-customizable-ai-workflows-for-developers/",
-            "published": "Sat, 22 Mar 2025 02:32:52 +0000",
-            "summary": "<p>Article URL: <a href=\"https://blog.mozilla.ai/introducing-blueprints-customizable-ai-workflows-for-developers/\">https://blog.mozilla.ai/introducing-blueprints-customizable-ai-workflows-for-developers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43442743\">https://news.ycombinator.com/item?id=43442743</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+            "url": "https://gkampiotis.github.io/gh-pages/on-premise-ai-servers-is-the-next-phase.html",
+            "published": "Sat, 22 Mar 2025 06:07:00 +0000",
+            "summary": "<p>Article URL: <a href=\"https://gkampiotis.github.io/gh-pages/on-premise-ai-servers-is-the-next-phase.html\">https://gkampiotis.github.io/gh-pages/on-premise-ai-servers-is-the-next-phase.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43443896\">https://news.ycombinator.com/item?id=43443896</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
             "tags": [
                 "HackerNews"
             ]
         },
         {
-            "title": "Redfly.ai – easily sync your SQL Server Database to Redis on-demand",
+            "title": "AI goes to the shrink: LLM imagines things then visualizes by Stable Diffusion",
             "source": "Hacker News AI",
-            "url": "https://github.com/redfly-ai-org/redfly.ai",
-            "published": "Sat, 22 Mar 2025 01:40:26 +0000",
-            "summary": "<p>Article URL: <a href=\"https://github.com/redfly-ai-org/redfly.ai\">https://github.com/redfly-ai-org/redfly.ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43442518\">https://news.ycombinator.com/item?id=43442518</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+            "url": "https://shrinkai.di.unimi.it/",
+            "published": "Sat, 22 Mar 2025 05:54:34 +0000",
+            "summary": "<p>Article URL: <a href=\"https://shrinkai.di.unimi.it/\">https://shrinkai.di.unimi.it/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43443861\">https://news.ycombinator.com/item?id=43443861</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+            "tags": [
+                "HackerNews"
+            ]
+        },
+        {
+            "title": "MusicMint free AI music generator",
+            "source": "Hacker News AI",
+            "url": "https://www.musicmint.ai/",
+            "published": "Sat, 22 Mar 2025 05:40:52 +0000",
+            "summary": "<p>Article URL: <a href=\"https://www.musicmint.ai/\">https://www.musicmint.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43443819\">https://news.ycombinator.com/item?id=43443819</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+            "tags": [
+                "HackerNews"
+            ]
+        },
+        {
+            "title": "Proof-of-work against AI scraping: Anubis (selfhosted scraper defense software)",
+            "source": "Hacker News AI",
+            "url": "https://github.com/TecharoHQ/anubis",
+            "published": "Sat, 22 Mar 2025 05:23:12 +0000",
+            "summary": "<p>Article URL: <a href=\"https://github.com/TecharoHQ/anubis\">https://github.com/TecharoHQ/anubis</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43443767\">https://news.ycombinator.com/item?id=43443767</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
             "tags": [
                 "HackerNews"
             ]
@@ -259,16 +289,6 @@
             "summary": "<p>This article explores how the product operating model, and the core competencies of empowered product teams in particular, can evolve to face the emerging opportunities and challenges in the age of AI.</p>\n<p>The post <a href=\"https://towardsdatascience.com/evolving-product-operating-models-in-the-age-of-ai/\">Evolving Product Operating Models in the Age of AI</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
             "tags": [
                 "TDS"
-            ]
-        },
-        {
-            "title": "How the AI Boom Created the Most Valuable Monopolies in History",
-            "source": "Hacker News AI",
-            "url": "https://www.bloomberg.com/news/features/2025-03-20/are-ai-monopolies-here-to-stay-nvidia-and-the-future-of-ai-chips",
-            "published": "Sat, 22 Mar 2025 00:53:20 +0000",
-            "summary": "<p>Article URL: <a href=\"https://www.bloomberg.com/news/features/2025-03-20/are-ai-monopolies-here-to-stay-nvidia-and-the-future-of-ai-chips\">https://www.bloomberg.com/news/features/2025-03-20/are-ai-monopolies-here-to-stay-nvidia-and-the-future-of-ai-chips</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43442314\">https://news.ycombinator.com/item?id=43442314</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
-            "tags": [
-                "HackerNews"
             ]
         },
         {
@@ -292,16 +312,6 @@
             ]
         },
         {
-            "title": "AI at work: Reasoning models and the future of business",
-            "source": "Microsoft AI",
-            "url": "https://news.microsoft.com/source/2025/03/17/ai-at-work-reasoning-models-and-the-future-of-business/",
-            "published": "Mon, 17 Mar 2025 17:55:51 +0000",
-            "summary": "<p>Tags: AI Work &#38; Life</p>\n<p>The post <a href=\"https://news.microsoft.com/source/2025/03/17/ai-at-work-reasoning-models-and-the-future-of-business/\">AI at work: Reasoning models and the future of business</a> appeared first on <a href=\"https://www.microsoft.com/en-us/ai/blog\">Microsoft AI Blogs</a>.</p>",
-            "tags": [
-                "Microsoft"
-            ]
-        },
-        {
             "title": "Mining Financial Data from SEC Filings with LlamaExtract",
             "source": "LlamaIndex",
             "url": "https://www.llamaindex.ai/blog/mining-financial-data-from-sec-filings-with-llamaextract",
@@ -319,16 +329,6 @@
             "summary": "Global logistics provider saves 600+ hours a day with tech they built using LangGraph, LangGraph Studio, and LangSmith developer tools.",
             "tags": [
                 "LangChain"
-            ]
-        },
-        {
-            "title": "Show HN: I made an AI-powered platform for affordable property data",
-            "source": "Hacker News AI",
-            "url": "https://app.realie.ai/dashboard/",
-            "published": "Fri, 21 Mar 2025 22:38:46 +0000",
-            "summary": "<p>My coworker and I set out to democratize access to high-quality property data without paying six figures for commercial datasets. We built a platform that leverages AI techniques, powered by OpenAI’s API, to crawl, interpret, and aggregate public property records from over 3,000 counties.<p>Our system uses AI to overcome the quirks and inconsistencies across county records, standardizing and indexing over 170 million property records with 100+ attributes. We offer a free API tier (up to 500 parcels per call) for exploration, with affordable paid plans and bulk data transfers for small companies.<p>I’m excited to share our approach and would love to hear your thoughts on how we can push it even further.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=43441492\">https://news.ycombinator.com/item?id=43441492</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
-            "tags": [
-                "HackerNews"
             ]
         },
         {
